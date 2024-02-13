@@ -21,6 +21,7 @@ import {
   shirtCustomizer,
   jobit,
   ecommerceapi,
+  DigitalHippo,
 } from "../assets";
 
 export const navLinks = [
@@ -141,6 +142,55 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "DigitalHippo",
+    description:
+      "Hippo Digital Store is a full-stack e-commerce platform designed for selling and buying digital assets, specializing in icon packs and UI kits. The platform is built entirely using TypeScript, leveraging Next.js for frontend development, TRPC for type-safe RPC communication, and Payload for flexible content management on the backend.",
+    tags: [
+      {
+        name: "Typescript",
+      },
+      {
+        name: "NodeJS",
+      },
+      {
+        name: "NextJS",
+      },
+      {
+        name: "React",
+      },
+      {
+        name: "Zustand",
+      },
+      {
+        name: "TailwindCss",
+      },
+      {
+        name: "Shadcn UI",
+      },
+      {
+        name: "TRPC",
+      },
+      {
+        name: "MongoDB",
+      },
+      {
+        name: "Payload",
+      },
+      {
+        name: "Stripe",
+      },
+      {
+        name: "Zod",
+      },
+      {
+        name: "Resend",
+      },
+    ],
+    image: DigitalHippo,
+    source_code_link: "https://github.com/elmotasembelah/DigitalHippo",
+    live_demo: "https://digitalhippo-motasem.up.railway.app/",
+  },
   {
     name: "3D Shirt Customizer",
     description:

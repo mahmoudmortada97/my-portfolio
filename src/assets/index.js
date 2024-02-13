@@ -23,38 +23,40 @@ import wix from "./tech/wix.png";
 import brandcoat from "./company/brandcoat.png";
 import glidelex from "./company/glidelex.png";
 
+import DigitalHippo from "./digitalhippo.png";
 import gerichtRestaurant from "./gericht.png";
 import shirtCustomizer from "./3DShirtCustomizer.png";
 import jobit from "./JobIt.png";
 import ecommerceapi from "./ecommerceapi.png";
 
 export {
-    logo,
-    backend,
-    creator,
-    mobile,
-    web,
-    github,
-    menu,
-    close,
-    // tech
-    css,
-    html,
-    javascript,
-    mongodb,
-    nodejs,
-    reactjs,
-    tailwind,
-    typescript,
-    postgresql,
-    mysql,
-    expressjs,
-    wix,
-    // experience
-    brandcoat,
-    glidelex,
-    gerichtRestaurant,
-    shirtCustomizer,
-    jobit,
-    ecommerceapi,
+  logo,
+  backend,
+  creator,
+  mobile,
+  web,
+  github,
+  menu,
+  close,
+  // tech
+  css,
+  html,
+  javascript,
+  mongodb,
+  nodejs,
+  reactjs,
+  tailwind,
+  typescript,
+  postgresql,
+  mysql,
+  expressjs,
+  wix,
+  // experience
+  brandcoat,
+  glidelex,
+  DigitalHippo,
+  gerichtRestaurant,
+  shirtCustomizer,
+  jobit,
+  ecommerceapi,
 };
