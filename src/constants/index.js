@@ -22,6 +22,8 @@ import {
   jobit,
   ecommerceapi,
   DigitalHippo,
+  nextjs,
+  redis,
 } from "../assets";
 
 export const navLinks = [
@@ -95,10 +97,18 @@ const technologies = [
     name: "MySql",
     icon: mysql,
   },
+  // {
+  //   name: "Redis",
+  //   icon: redis,
+  // },
   {
     name: "React JS",
     icon: reactjs,
   },
+  // {
+  //   name: "NextJS",
+  //   icon: nextjs,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,

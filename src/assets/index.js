@@ -16,7 +16,9 @@ import expressjs from "./tech/expressjs.png";
 import mongodb from "./tech/mongodb.png";
 import postgresql from "./tech/postgresql.png";
 import mysql from "./tech/mysql.png";
+import redis from "./tech/redis.png";
 import reactjs from "./tech/reactjs.png";
+import nextjs from "./tech/nextjs.png";
 import tailwind from "./tech/tailwind.png";
 import wix from "./tech/wix.png";
 
@@ -51,6 +53,8 @@ export {
   mysql,
   expressjs,
   wix,
+  nextjs,
+  redis,
   // experience
   brandcoat,
   glidelex,
