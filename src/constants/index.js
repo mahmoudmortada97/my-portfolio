@@ -97,10 +97,10 @@ const technologies = [
     name: "MySql",
     icon: mysql,
   },
-  // {
-  //   name: "Redis",
-  //   icon: redis,
-  // },
+  {
+    name: "Redis",
+    icon: redis,
+  },
   {
     name: "React JS",
     icon: reactjs,
