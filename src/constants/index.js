@@ -105,10 +105,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "NextJS",
-  //   icon: nextjs,
-  // },
+  {
+    name: "NextJS",
+    icon: nextjs,
+  },
   {
     name: "Tailwind CSS",
     icon: tailwind,
