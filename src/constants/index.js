@@ -17,6 +17,7 @@ import {
   wix,
   brandcoat,
   glidelex,
+  spatium,
   gerichtRestaurant,
   shirtCustomizer,
   jobit,
@@ -121,12 +122,26 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Scrum Master | Full Stack Developer",
+    company_name: "Brandcoat",
+    company_website_link: "https://spatiumsoftware.com/",
+    icon: spatium,
+    iconBg: "#1f244e",
+    date: "Jan 2024 - Current",
+    points: [
+      "Coached and mentored 2 teams in the adoption and implementation of scrum practices.",
+      "Removed impediments, promoted continuous improvement, and tracked performance metrics for 4 projects.",
+      "Acted as a liaison with stakeholders, managing expectations and providing project updates for 4 projects.",
+      "Worked as a full-stack developer on two projects, building and integrating the backend while mentoring junior frontend developers on dynamically displaying data using the backend.",
+    ],
+  },
+  {
     title: "Full-Stack Web Developer",
     company_name: "Brandcoat",
     company_website_link: "https://www.brandcoat.net/",
     icon: brandcoat,
     iconBg: "#f0f0f0",
-    date: "Jan 2023 - Current",
+    date: "Jun 2022 - Jan 2024",
     points: [
       "Developing and maintaining serverside application and API using express and webflow APi.",
       "Developing algorithms designed to extract insights and actionable information from complex databases.",
@@ -199,7 +214,7 @@ const projects = [
     ],
     image: DigitalHippo,
     source_code_link: "https://github.com/elmotasembelah/DigitalHippo",
-    live_demo: "https://digitalhippo-motasem.up.railway.app/",
+    // live_demo: "https://digitalhippo-motasem.up.railway.app/",
   },
   {
     name: "3D Shirt Customizer",

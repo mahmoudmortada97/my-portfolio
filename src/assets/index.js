@@ -24,6 +24,7 @@ import wix from "./tech/wix.png";
 
 import brandcoat from "./company/brandcoat.png";
 import glidelex from "./company/glidelex.png";
+import spatium from "./company/spatium.png";
 
 import DigitalHippo from "./digitalhippo.png";
 import gerichtRestaurant from "./gericht.png";
@@ -58,6 +59,7 @@ export {
   // experience
   brandcoat,
   glidelex,
+  spatium,
   DigitalHippo,
   gerichtRestaurant,
   shirtCustomizer,
