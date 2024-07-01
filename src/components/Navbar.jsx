@@ -29,7 +29,7 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-[25] ${
+      } w-full flex items-center py-5 fixed top-0 z-[25] duration-[350ms] ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
