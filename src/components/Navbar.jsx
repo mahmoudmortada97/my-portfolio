@@ -44,7 +44,7 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Motasem Elsayed
+            Ahmed Mamdouh
           </p>
         </Link>
 
@@ -60,15 +60,15 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
-          <li>
-            <a
-              href="https://github.com/elmotasembelah/my-portfolio"
-              className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
-              target="_blank"
-            >
-              Source Code
-            </a>
-          </li>
+          {/*<li>*/}
+          {/*  <a*/}
+          {/*    href="https://github.com/ahmadmamdouh-10/my-portfolio"*/}
+          {/*    className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"*/}
+          {/*    target="_blank"*/}
+          {/*  >*/}
+          {/*    Source Code*/}
+          {/*  </a>*/}
+          {/*</li>*/}
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -102,16 +102,16 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
-
-              <li>
-                <a
-                  href="https://github.com/elmotasembelah/my-portfolio"
-                  className="text-secondary"
-                  target="_blank"
-                >
-                  Source Code
-                </a>
-              </li>
+              
+              {/*<li>*/}
+              {/*  <a*/}
+              {/*    href="https://github.com/elmotasembelah/my-portfolio"*/}
+              {/*    className="text-secondary"*/}
+              {/*    target="_blank"*/}
+              {/*  >*/}
+              {/*    Source Code*/}
+              {/*  </a>*/}
+              {/*</li>*/}
             </ul>
           </div>
         </div>

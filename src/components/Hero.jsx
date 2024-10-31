@@ -24,7 +24,7 @@ const Hero = () => {
 
         <div className="z-20">
           <h1 className={`${styles.heroHeadText} text-white `}>
-            Hi, I'm <span className="text-[#915EFF]">Motasem</span>
+            Hi, I'm <span className="text-[#915EFF]">Ahmed Mamdouh</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             {/* A Full Stack Developer, I Excel in Adapting,
@@ -46,7 +46,7 @@ const Hero = () => {
             </button>
             <button className="border-[#915EFF] border-[1px] my-4 py-[.63rem] px-6 rounded-xl outline-none w-fit text-white cursor-pointer z-20 transition-all">
               <a
-                href="https://drive.google.com/drive/u/0/folders/1Cpt0xIum4AgmVUiFaL8FMT6A2mF4Q9Nu"
+                href="https://drive.google.com/drive/folders/11JF1xNsAsNZes327I7W9MasQ5NC0OLWw"
                 target="_blank"
               >
                 My Resume

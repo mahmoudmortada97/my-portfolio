@@ -7,62 +7,72 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import html from "./tech/html.png";
-import css from "./tech/css.png";
 import javascript from "./tech/javascript.png";
 import typescript from "./tech/typescript.png";
-import nodejs from "./tech/nodejs.png";
-import expressjs from "./tech/expressjs.png";
 import mongodb from "./tech/mongodb.png";
 import postgresql from "./tech/postgresql.png";
 import mysql from "./tech/mysql.png";
 import redis from "./tech/redis.png";
-import reactjs from "./tech/reactjs.png";
-import nextjs from "./tech/nextjs.png";
 import tailwind from "./tech/tailwind.png";
-import wix from "./tech/wix.png";
+import angular from "./tech/angular.svg";
+import elasticsearch from "./tech/elasticsearch.svg";
+import docker from "./tech/docker.svg";
+import dotnet from "./tech/dotnet.svg";
+import msql from "./tech/msql.svg";
+import rabbitmq from "./tech/rabbitmq.svg";
+import gitBash from "./tech/git-bash.svg";
+import gitHubAction from "./tech/github-icon-1.svg";
+import azure from "./tech/azure-2.svg";
+import jira from "./tech/jira-1.svg";
+import postman from "./tech/postman.svg";
+import kibana from "./tech/elastic-kibana.svg";
+import logstash from "./tech/elastic-logstash.svg";
 
-import brandcoat from "./company/brandcoat.png";
-import glidelex from "./company/glidelex.png";
-import spatium from "./company/spatium.png";
+import linkDev from "./company/linkDevelopmentLogo.png";
+import frontierZero from "./company/frontierZero-svg.svg";
+import ySolution from "./company/yackeenSolutions.png";
 
 import DigitalHippo from "./digitalhippo.png";
-import gerichtRestaurant from "./gericht.png";
-import shirtCustomizer from "./3DShirtCustomizer.png";
-import jobit from "./JobIt.png";
-import ecommerceapi from "./ecommerceapi.png";
+import frontierZeroDashboard from "./frontierZeroDashboard.png";
+import ticketManagementSystem from "./TicketMangementSysyem.png";
+import blogApp from "./BlogApp.png";
 
 export {
-  logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-  // tech
-  css,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  tailwind,
-  typescript,
-  postgresql,
-  mysql,
-  expressjs,
-  wix,
-  nextjs,
-  redis,
-  // experience
-  brandcoat,
-  glidelex,
-  spatium,
-  DigitalHippo,
-  gerichtRestaurant,
-  shirtCustomizer,
-  jobit,
-  ecommerceapi,
+    logo,
+    backend,
+    creator,
+    mobile,
+    web,
+    github,
+    menu,
+    close,
+    // tech
+    javascript,
+    mongodb,
+    tailwind,
+    typescript,
+    postgresql,
+    mysql,
+    redis,
+    angular,
+    elasticsearch,
+    docker,
+    dotnet,
+    msql,
+    rabbitmq,
+    gitBash,
+    gitHubAction,
+    azure,
+    jira,
+    postman,
+    kibana,
+    logstash,
+    // experience
+    linkDev,
+    frontierZero,
+    ticketManagementSystem,
+    ySolution,
+    DigitalHippo,
+    blogApp,
+    frontierZeroDashboard,
 };

@@ -1,21 +1,21 @@
 import React from "react";
-import { motion } from "framer-motion";
+import {motion} from "framer-motion";
 
-import { styles } from "../styles";
-import { github } from "../assets";
-import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import {styles} from "../styles";
+import {github} from "../assets";
+import {SectionWrapper} from "../hoc";
+import {projects} from "../constants";
+import {fadeIn, textVariant} from "../utils/motion";
 
 const ProjectCard = ({
-    index,
-    name,
-    description,
-    tags,
-    image,
-    source_code_link,
-    live_demo,
-}) => {
+                         index,
+                         name,
+                         description,
+                         tags,
+                         image,
+                         source_code_link,
+                         live_demo,
+                     }) => {
     return (
         <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
             <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
@@ -34,13 +34,17 @@ const ProjectCard = ({
                     </p>
                 </div>
                 <div className="flex flex-col gap-4 my-4">
-                    <a
-                        href={source_code_link}
-                        target="_blank"
-                        className="border-[#915EFF] border-[1px] bg-transparent  py-2 px-4 rounded-xl outline-none w-fit text-white  cursor-pointer"
-                    >
-                        Source Code
-                    </a>
+                    {source_code_link && (
+
+                        <a
+                            href={source_code_link}
+                            target="_blank"
+                            className="border-[#915EFF] border-[1px] bg-transparent  py-2 px-4 rounded-xl outline-none w-fit text-white  cursor-pointer"
+                        >
+                            Source Code
+                        </a>
+                    )}
+
                     {live_demo && (
                         <a
                             href={live_demo}
@@ -82,8 +86,8 @@ const Works = () => {
                 >
                     Following projects showcases my skills and experience
                     through real-world examples of my work. Each project is
-                    briefly described with links to code repositories and live
-                    demos. It reflects my ability to solve complex problems,
+                    briefly described with links live
+                    demos (if available). It reflects my ability to solve complex problems,
                     adapt and work with different and new technologies, and
                     manage projects effectively.
                 </motion.p>
