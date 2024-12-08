@@ -46,7 +46,7 @@ const Hero = () => {
             </button>
             <button className="border-[#915EFF] border-[1px] my-4 py-[.63rem] px-6 rounded-xl outline-none w-fit text-white cursor-pointer z-20 transition-all">
               <a
-                href="https://drive.google.com/drive/folders/11JF1xNsAsNZes327I7W9MasQ5NC0OLWw"
+                href=""
                 target="_blank"
               >
                 My Resume
