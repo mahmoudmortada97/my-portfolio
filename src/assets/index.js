@@ -28,9 +28,9 @@ import postman from "./tech/postman.svg";
 import kibana from "./tech/elastic-kibana.svg";
 import logstash from "./tech/elastic-logstash.svg";
 
-import linkDev from "./company/linkDevelopmentLogo.png";
-import frontierZero from "./company/frontierZero-svg.svg";
-import ySolution from "./company/yackeenSolutions.png";
+import Momkn from "./company/Momkn.png";
+import Ministry from "./company/Ministry.jpg";
+import GPG from "./company/GPG.jpg";
 
 import DigitalHippo from "./digitalhippo.png";
 import frontierZeroDashboard from "./frontierZeroDashboard.png";
@@ -68,11 +68,11 @@ export {
     kibana,
     logstash,
     // experience
-    linkDev,
-    frontierZero,
     ticketManagementSystem,
-    ySolution,
     DigitalHippo,
     blogApp,
     frontierZeroDashboard,
+    Momkn,
+    Ministry,
+    GPG
 };

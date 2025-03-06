@@ -54,9 +54,8 @@ const About = () => {
                 variants={fadeIn("", "", 0.1, 1)}
                 className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
             >
-                Mid-level Software Engineer with over four years of expertise in Microsoft Technologies including C#,
-                ASP.NET Core, SQL Server, and Azure. Proficient in the ELK Stack (Elasticsearch, Logstash, Kibana), with
-                a proven track record of optimizing and enhancing software solutions for performance and scalability.
+                Mid-level Software Engineer with over 2.5 years of expertise in Microsoft Technologies including C#,
+                ASP.NET Core, SQL Server, and Azure.With a proven track record of optimizing and enhancing software solutions for performance and scalability.
                 Strong understanding of the Software Development Life Cycle (SDLC) and experience working in Agile
                 environments, effectively collaborating with cross-functional teams to deliver high-quality solutions.
                 Demonstrates a deep ability to refactor and improve existing systems, integrating new technologies to
@@ -73,7 +72,7 @@ const About = () => {
                 <button
                     className="border-[#915EFF] border-[1px] my-4 py-[.63rem] px-6 rounded-xl outline-none w-fit text-white cursor-pointer z-20 transition-all">
                     <a
-                        href="https://drive.google.com/drive/folders/11JF1xNsAsNZes327I7W9MasQ5NC0OLWw"
+                        href="https://flowcv.com/resume/mrsjts2slg"
                         target="_blank"
                     >
                         My Resume
