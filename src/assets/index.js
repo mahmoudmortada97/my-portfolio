@@ -31,6 +31,14 @@ import logstash from "./tech/elastic-logstash.svg";
 import Momkn from "./company/Momkn.png";
 import Ministry from "./company/Ministry.jpg";
 import GPG from "./company/GPG.jpg";
+import jenkins from "./tech/Jenkins.png";
+import argo from "./tech/Argo.svg";
+import work_in_progress from "./projects/work-in-progress.jpg";
+import MomknApp from "./projects/MomknApp.png";
+import pl from "./projects/pl.webp";
+import shipping from "./projects/shipping.png";
+
+
 
 import DigitalHippo from "./digitalhippo.png";
 import frontierZeroDashboard from "./frontierZeroDashboard.png";
@@ -74,5 +82,11 @@ export {
     frontierZeroDashboard,
     Momkn,
     Ministry,
-    GPG
+    GPG,
+    jenkins,
+    argo,
+    work_in_progress,
+    MomknApp,
+    pl,
+    shipping
 };

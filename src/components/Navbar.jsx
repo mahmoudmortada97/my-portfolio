@@ -62,7 +62,7 @@ const Navbar = () => {
           ))}
           {/*<li>*/}
           {/*  <a*/}
-          {/*    href="https://github.com/ahmadmamdouh-10/my-portfolio"*/}
+          {/*    href="https://github.com/mahmoudmortada97-10/my-portfolio"*/}
           {/*    className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"*/}
           {/*    target="_blank"*/}
           {/*  >*/}

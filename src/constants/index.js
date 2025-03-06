@@ -26,7 +26,13 @@ import {
     ticketManagementSystem,
     Momkn,
     Ministry,
-    GPG
+    GPG,
+    jenkins,
+    argo,
+    work_in_progress,
+    MomknApp,
+    pl,
+    shipping
 } from "../assets";
 
 export const navLinks = [
@@ -45,18 +51,18 @@ export const navLinks = [
 ];
 
 const services = [
-    {
-        title: "Software Engineer",
-        icon: backend,
-    },
+    // {
+    //     title: "Software Engineer",
+    //     icon: backend,
+    // },
     {
         title: "Full-Stack Developer",
         icon: web,
     },
-    {
-        title: `Career Development Coach`,
-        icon: creator,
-    },
+    // {
+    //     title: `Career Development Coach`,
+    //     icon: creator,
+    // },
 ];
 
 const technologies = [
@@ -68,21 +74,29 @@ const technologies = [
         name: "MS SQL Server",
         icon: msql,
     },
-    {
-        name: "Elasticsearch",
-        icon: elasticsearch,
-    },
-    {
-        name: "Kibana",
-        icon: kibana,
-    },
-    {
-        name: "Logstash",
-        icon: logstash,
-    },
+    // {
+    //     name: "Elasticsearch",
+    //     icon: elasticsearch,
+    // },
+    // {
+    //     name: "Kibana",
+    //     icon: kibana,
+    // },
+    // {
+    //     name: "Logstash",
+    //     icon: logstash,
+    // },
     {
         name: "Docker",
         icon: docker,
+    },
+    {
+        name: "Jenkins",
+        icon: jenkins,
+    },
+    {
+        name: "Argo",
+        icon: argo,
     },
     {
         name: "RabbitMQ",
@@ -92,14 +106,14 @@ const technologies = [
         name: "Redis",
         icon: redis,
     },
-    {
-        name: "MongoDB",
-        icon: mongodb,
-    },
-    {
-        name: "PostgresSql",
-        icon: postgresql,
-    },
+    // {
+    //     name: "MongoDB",
+    //     icon: mongodb,
+    // },
+    // {
+    //     name: "PostgresSql",
+    //     icon: postgresql,
+    // },
     {
         name: "Angular+2",
         icon: angular,
@@ -186,9 +200,9 @@ const experiences = [
 
 const projects = [
     {
-        name: "MCIT Culture Web Platform",
+        name: "Tayeeh",
         description:
-            "A dual-component system comprising a Search Engine and an E-commerce Web App designed for the Communications Ministry. Spearheaded the integration of complex search functionalities with user-centric e-commerce features, significantly enhancing the digital experience for cultural content consumption.",
+            "I am building Tayeeh, A kind and helpful app designed to find lost kids and old people all across Egypt. It uses pictures to look closely and match them with a big list of people, and it has easy search tools so anyone can use it without trouble. This app makes it simple and fast to check the list and bring families back together with lots of love and care, making a happy difference for everyone in the country!",
         tags: [
             {
                 name: "C#",
@@ -206,7 +220,7 @@ const projects = [
                 name: "Microsoft SQL Server",
             },
             {
-                name: "Microservices",
+                name: "Monolithic",
             },
             {
                 name: "EF Core",
@@ -230,23 +244,23 @@ const projects = [
                 name: "Clean Architecture",
             },
         ],
-        image: blogApp,
+        image: work_in_progress        ,
         // source_code_link: "https://github.com/elmotasembelah/DigitalHippo",
         // live_demo: "https://digitalhippo-motasem.up.railway.app/",
     },
     {
-        name: "FrontierZero",
+        name: "Momkn Application",
         description:
-            "At FrontierZero, we revolutionize SaaS spending and security by addressing the limitations of traditional security approaches. Our platform empowers technology teams to work seamlessly while ensuring uncompromising security. Through continuous innovation and client feedback, we remain at the forefront of remote team security, providing a partnership that enables organizations to embrace cloud benefits without compromising on security.",
+        "A wonderful and trusted app that helps lots of people in Egypt pay money and use important services every single day. It is the most reliable and safe app you can find, working smoothly with strong tools to handle more than 20,000 jobs each day without any problems. With its super simple and friendly way to use, it makes everything easy and quick for over 50,000 happy users. Whether you need to send payments or get help with services, this app brings a happy and stress-free experience, all as easy as momkn, with lots of care and support for families and businesses across the country",
         tags: [
             {
                 name: ".NET Core",
             },
             {
-                name: "PostgreSQL",
+                name: "SQL Server",
             },
             {
-                name: "React.js",
+                name: "Docker",
             },
             {
                 name: "OAuth2",
@@ -257,33 +271,30 @@ const projects = [
             {
                 name: "Security",
             },
+            // {
+            //     name: "CQRS",
+            // },
+            // {
+            //     name: "MediatR",
+            // },
         ],
-        image: frontierZeroDashboard,
+        image: MomknApp,
         // source_code_link: "https://github.com/elmotasembelah/FullStack-Threejs-AI",
-        live_demo: "https://www.frontierzero.io/",
+        //live_demo: "https://www.frontierzero.io/",
     },
     {
-        name: "Ticket Management System",
+        name: "Premier League Predictions Scoring System",
         description:
-            "A ticket management system that allows users to create, view, and manage tickets. The system is designed to be used by both customers and agents. Customers can create tickets, view their tickets, and add replies to their tickets. Agents can view all tickets, reply to tickets, and close tickets.",
+            "This exciting app makes guessing the final Premier League standings easy and fun for everyone. Pick each team’s spot, earn points—10 for exact, 5 for one off, 1 for two off—and see your score on a leaderboard. It updates with the latest football news and has a simple look, bringing joy to fans everywhere!",
         tags: [
             {
                 name: ".NET Core",
             },
             {
-                name: "MS SQL Server",
+                name: "Integration",
             },
             {
                 name: "EF Core",
-            },
-            {
-                name: "DDD",
-            },
-            {
-                name: "CQRS",
-            },
-            {
-                name: "MediatR",
             },
             {
                 name: "FluentValidation",
@@ -298,14 +309,14 @@ const projects = [
                 name: "Hangfire",
             },
         ],
-        image: ticketManagementSystem,
-        // source_code_link:
-        //     "https://github.com/elmotasembelah/Jobs-API-with-Account-System",
+        image: pl,
+         source_code_link:
+            "https://github.com/mahmoudmortada97/PremierLeaguePredictions",
     },
     {
-        name: "App3amaluna",
+        name: "Shipping System",
         description:
-            "A professional networking platform for a startup, implementing real-time communication features including posts, comments, and shares. Designed group-specific functionalities that doubled user interactions and increased daily active users by 40%.",
+            "This project is an ASP.NET Core 7 MVC web application that simplifies order creation, tracking, and delivery management for traders, streamlines administrative tasks and enhances operational efficiency for employees, and provides easy access to assigned tasks and real-time updates for representatives. The system is designed for shipping companies to address pain points such as manual processes, lack of coordination, and time-consuming tasks.",
         tags: [
             {
                 name: ".NET Core",
@@ -326,38 +337,38 @@ const projects = [
                 name: "SignalR",
             },
             {
-                name: "Hangfire",
+                name: "Clean Code",
             },
         ],
-        image: blogApp,
-        // source_code_link:
-        //     "https://github.com/elmotasembelah/Jobs-API-with-Account-System",
+        image: shipping,
+         source_code_link:
+            "https://github.com/mahmoudmortada97/Shipping-Management-System-ITI-Gradation-Project",
     },
 
-    {
-        name: "BlogApp",
-        description:
-        "This is a Blog Application using DatabaseFirst, ASP.NET Core API, Identity Library, JWT for Authentication, Dapper to connect with database, that all with Backend, and I use in Front-end: Angular11, HTML5, CSS3, Bootstrap, font-awesome, & Typescript.",
-        tags: [
-            {
-                name: ".NET Core",
-            },
-            {
-                name: "Dapper",
-            },
-            {
-                name: "JWT",
-            },
-            {
-                name: "Identity",
-            },
-            {
-                name: "Angular 11",
-            },
-        ],
-        image: blogApp,
-        source_code_link: "https://github.com/elmotasembelah/Store-API/",
-    },
+    // {
+    //     name: "BlogApp",
+    //     description:
+    //     "This is a Blog Application using DatabaseFirst, ASP.NET Core API, Identity Library, JWT for Authentication, Dapper to connect with database, that all with Backend, and I use in Front-end: Angular11, HTML5, CSS3, Bootstrap, font-awesome, & Typescript.",
+    //     tags: [
+    //         {
+    //             name: ".NET Core",
+    //         },
+    //         {
+    //             name: "Dapper",
+    //         },
+    //         {
+    //             name: "JWT",
+    //         },
+    //         {
+    //             name: "Identity",
+    //         },
+    //         {
+    //             name: "Angular 11",
+    //         },
+    //     ],
+    //     image: blogApp,
+    //     source_code_link: "https://github.com/elmotasembelah/Store-API/",
+    // },
     
     
     /////////////////////
